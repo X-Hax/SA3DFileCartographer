@@ -1,0 +1,27 @@
+﻿SA3D File Cartographer @X-Hax @Justin113D
+    Usage: [filepath] {options}
+
+    filepath
+        Path to a file that should be cartographed\n
+
+    Options:
+        -h --help           Help
+
+        -fmt --format
+            Provide file format, if it cant be deduced from the file itself. Possible values are:
+                "MDL" - Model file
+                "LVL" - Level file
+                "MTN" - Motion file
+                "EVE" - Event file (cannot be auto detected)
+
+        -mxt --model-extract
+            Attempt to extract unused model data from an sa2 event
+
+        -mem --map-event-motions
+            Map the event motions
+
+        -dce --decompress-event
+            Decompress the main event file and output alongside the image for inspecting purposes
+
+        -out
+            Output image path. Default is the path of the input file + .png
