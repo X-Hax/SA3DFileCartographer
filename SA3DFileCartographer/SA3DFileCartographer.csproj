@@ -19,11 +19,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="SA3D.Common" Version="1.4.5" />
-		<PackageReference Include="SA3D.Modeling" Version="1.1.1" />
-		<PackageReference Include="SA3D.SA2Event" Version="1.0.2" />
-		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
-		<PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.1" />
+		<PackageReference Include="SA3D.Common" Version="1.4.7" />
+		<PackageReference Include="SA3D.Modeling" Version="1.1.5" />
+		<PackageReference Include="SA3D.SA2Event" Version="1.0.3" />
+		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+		<PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.4" />
 	</ItemGroup>
 
 </Project>
